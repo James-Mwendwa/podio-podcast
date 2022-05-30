@@ -1,8 +1,11 @@
 import React from 'react';
+import Home from './Home';
 
 function App() {
   return (
-   <h2>Podia</h2>
+   <div className="podcast">
+     <Home />
+   </div>
   );
 }
 

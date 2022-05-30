@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 0.25;
+}
+
+.logo > img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo > h2 {
+    color: blue;
+}
+
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.25;
+  
+
+}
+
+.header-navbar > a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;  
+
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+}
+
+  
+
